@@ -1,4 +1,4 @@
-import { Title, Section, Text, Heading, SubHeading } from "../Components";
+import { Title, Section, Text, Heading, SubHeading } from "../Components"
 
 const Experience = () => {
   return (
@@ -7,9 +7,12 @@ const Experience = () => {
       <Heading value="Intelcia Egypt" />
       <SubHeading value="Technical Support Advisor for Optimum - Full Time" />
       <Text>Jul 2021 - Nov 2021</Text>
-      <Text>Jul 2022 - Nov 2022 </Text>
+      <br />
+      <Heading value="Sutherland global" />
+      <SubHeading value="Account management for Comcast (Xfinity) - Full Time" />
+      <Text>sept 2023 - present</Text>
     </Section>
-  );
-};
+  )
+}
 
-export default Experience;
+export default Experience

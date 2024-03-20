@@ -1,4 +1,4 @@
-import { Heading, Section, Small, Text, Title } from "../Components";
+import { Heading, Section, Small, Text, Title } from "../Components"
 
 const Skills = () => (
   <Section id="Skills">
@@ -60,7 +60,21 @@ const Skills = () => (
           <i className="fa fa-angle-right mr-1" />
           RadixUI
           <Small className="block text-sm text-slate-700">
+            tailwind flavored component library
+          </Small>
+        </Text>
+        <Text>
+          <i className="fa fa-angle-right mr-1" />
+          ShadcnUI
+          <Small className="block text-sm text-slate-700">
             Accessible Components library
+          </Small>
+        </Text>
+        <Text>
+          <i className="fa fa-angle-right mr-1" />
+          Zustand
+          <Small className="block text-sm text-slate-700">
+            State managment Library
           </Small>
         </Text>
         <Text>
@@ -137,6 +151,6 @@ const Skills = () => (
       </div>
     </div>
   </Section>
-);
+)
 
-export default Skills;
+export default Skills
